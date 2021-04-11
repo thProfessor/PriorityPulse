@@ -17,14 +17,12 @@ list of places animated on hover
 
 subtle page animations for outrow and map display
 ---
-# deployed using firebase
+### deployed using firebase
 link in description
 ---
 
-# sample of work
-<video width="320" height="240" controls>
-  <source src="video2.mp4" type="video/mp4">
-  </video>
+### sample of work
+download video available as <b>video2.mp4</b>
 
 ### `yarn build`
 
