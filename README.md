@@ -22,7 +22,7 @@ link in description
 ---
 
 # sample of work
-<video src=""/>
+<video src="./video2.mp4"/>
 
 ### `yarn build`
 
