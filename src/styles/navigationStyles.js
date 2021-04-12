@@ -17,6 +17,11 @@ export const NavList = styled.div`
       height: 96px;
       line-height: 96px;
       overflow: hidden;
+      @media (max-width: 540px) {
+        position: relative;
+        right: -114px;
+        font-size: 2rem;
+      }
       a {
         color: ${(props) => props.theme.text};
         position: relative;

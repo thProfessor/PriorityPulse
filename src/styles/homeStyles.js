@@ -30,6 +30,12 @@ export const BannerTitle = styled(motion.h1)`
   left: 0px;
   color: ${(props) => props.theme.text};
   pointer-events: none;
+  @media (max-width: 768px) {
+    bottom: -80px;
+  }
+  @media (max-width: 540px) {
+    bottom: -60px;
+  }
 `;
 
 export const Headline = styled(motion.span)`
@@ -37,4 +43,10 @@ export const Headline = styled(motion.span)`
   font-size: 15rem;
   font-weight: 900;
   line-height: 0.76;
+  @media (max-width: 768px) {
+    font-size: 9rem;
+  }
+  @media (max-width: 540px) {
+    font-size: 3rem;
+  }
 `;
